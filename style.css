@@ -1,0 +1,248 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+*{
+	box-sizing: border-box;
+}
+.menu{
+	background: #ffff00;
+	margin:0 auto;
+	padding: 0;
+	width: 80%;
+	height: 60px;
+	position: sticky;
+	top: 0;
+}
+img{
+	padding: 8px 0px;
+}
+.image{
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+	height: 60px;
+	float: left;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	width: 70%;
+	float:left;
+}
+ul li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	line-height: 60px;
+	float: left;
+	display: block;
+	width: 16.66%;
+}
+ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Monotype Corsiva";
+	color: black;
+}
+.av{
+	background: red;
+}
+ul li a:hover{
+	background: #cccc00;
+}
+.menubar{
+	font-size: 40px;
+	text-align: right;
+	width: 100%;
+	display: none;
+	float: right;
+}
+/*End the Menu bar*/
+
+.container{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+#about_me{
+	margin:0;
+	padding-top: 70px;
+	width: 100%;
+	height: 700px;
+}
+.about_left{
+	margin:0;
+	padding: 0;
+	width: 40%;
+	height: 630px;
+	float: left;
+}
+.about_left img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.about_left h3{
+	width: 80%;
+	margin:0 auto;
+	padding: 10px;
+	text-align: center;
+	background: #ffcc66;
+	border-radius: 25px;
+	font-family: "Monotype Corsiva";
+	font-size: 25px;
+}
+.about_left h3 a{
+	text-decoration: none;
+	color: #333333;
+}
+.about_left h3:hover{
+	background: #cccc99;
+}
+.about_right{
+	margin:0;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 60%;
+	height: 630px;
+	float: left;
+}
+.about_right h1,h2{
+	text-align:center;
+	font-family: "Elephant";
+}
+.about_right h1{
+	font-size: 30px;
+}
+.about_right p{
+	font-size: 25px;
+	font-family: "Informal Roman";
+	text-align: justify;
+}
+table{
+	width: 80%;
+	font-size: 25px;
+}
+.social_icon{
+	width: 100%;
+	max-height: 70px;
+	margin:0;
+	padding: 0;
+}
+
+ .social_icon img{
+	width:70px;
+	height: 70px;
+	margin:10px;
+	padding: 10px;
+	border: 1px solid skyblue;
+	border-radius: 15px;
+	float: left;
+}
+
+
+/*End about me*/
+#skill{
+	margin:0;
+	padding-top: 70px;
+	width: 100%;
+	height: 700px;
+	background: skyblue;
+}
+#skill h1{
+	margin: 0 auto;
+	width: 30%;
+	border: 2px solid black;
+	text-align: center;
+	padding: 15px;
+	font-size: 40px;
+	font-weight: bold;
+}
+/*.technical_skill{
+	width: 50%;
+	height: 500px;
+	background: red;
+	float: left;
+}
+.personal_skill{
+	width: 50%;
+	height: 500px;
+	background: blue;
+	float: left;
+}
+.technical_skill h1{
+	width: 100%;
+	margin: 0 auto;
+	text-decoration: underline;
+}*/
+
+
+
+
+/*End the Skill section*/
+#education{
+	margin:0;
+	padding-top: 70px;
+	width: 100%;
+	height: 700px;
+	background: #ffcccc;
+}
+#service{
+	margin:0;
+	padding-top: 70px;
+	width: 100%;
+	height: 700px;
+	background: #ffffcc;
+}
+#portfolio{
+	margin:0;
+	padding-top: 70px;
+	width: 100%;
+	height: 700px;
+	background: #ff0066;
+}
+#contact{
+	margin:0;
+	padding-top: 70px;
+	width: 100%;
+	height: 700px;
+	background: #9999ff;
+}
+
+
+
+
+@media (max-width: 795px){
+	.image{
+	width: 90%;
+	height: 60px;
+	float: left;
+}
+ul{
+	width: 100%;
+	background: #ffff00;
+	display: none;
+}
+.active{
+	display: block;
+}
+ul li{
+	width: 100%;
+}
+img{
+	width: 200px;
+	height: 60px;
+	left: 50%;
+	position: relative;
+	margin-left: -100px;
+}
+.menubar{
+	display:block;
+	width: 10%;
+}
+}

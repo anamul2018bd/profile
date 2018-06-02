@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1 ">
+	<title>Welcome To Anamul Haque</title>
+	<link rel="icon" type="image/x-icon" href="icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+</head>
+<body>
+
+<div class="menu">
+<div class="menubar">
+	<i class="fas fa-bars"></i>
+</div>
+
+	<div class="image">
+	<img src="logo.png">
+	</div>
+	<ul>
+		<li><a href="#about_me" class="av">About me</a></li>
+		<li><a href="#skill">Skill</a></li>
+		<li><a href="#education">Education</a></li>
+		<li><a href="#service">Service</a></li>
+		<li><a href="#portfolio">Portfolio</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</div>
+<div class="container">
+
+	<section id="about_me">
+
+		<div class="about_left">
+			<img src="a.jpg">
+			<br><br>
+			<h3><a href="#">Download Resume</a></h3>
+		</div>
+		<div  class="about_right">
+			<h1>Hi I'M MD. ANAMUL HAQUE</h1>
+			<h2>Web Designer and Developer</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in </p>
+		<table>
+			<tr>
+				<td>Age :</td>
+				<td>23</td>
+			</tr>
+			<tr>
+				<td>Nationality :</td>
+				<td>Bangladeshi</td>
+			</tr>
+			<tr>
+				<td>Address :</td>
+				<td>Magura, Khulna, bangladesh</td>
+			</tr>
+			<tr>
+				<td>Mobile:</td>
+				<td>01725-537066</td>
+			</tr>
+			<tr>
+				<td>E-mail:</td>
+				<td>anamul0488bd@gmail.com</td>
+			</tr>
+		</table><br><br>
+
+		<div class="social_icon">
+			<a href="#"><img src="facebook.png"></a>
+			<a href="#"><img src="twitter.png"></a>
+			<a href="#"><img src="googleplus.png"></a>
+			<a href="#"><img src="skype.png"></a>
+		</div>
+
+		</div>
+	</section>
+
+	<!--about section end-->
+
+	<section id="skill">
+		<h1>MY SKILL</h1><br>
+
+		<div class="technical_skill">
+			<h1>Technical Skill</h1>
+		</div>
+
+		<div class="personal_skill">
+			<h1>Personal Skill</h1>
+		</div>
+
+	</section>
+
+	<section id="education">
+		<h1>Education</h1>
+	</section>
+
+	<section id="service">
+		<h1>Service</h1>
+	</section>
+
+	<section id="portfolio">
+		<h1>Portfolio</h1>
+	</section>
+	<section id="contact">
+	<h1>Contact</h1>
+	</section>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+  ></script>
+
+  <script type="text/javascript">
+  	$(document).ready(function(){ 
+  		$('.fa-bars').click(function(){
+  			$('ul').toggleClass('active');
+  		});
+  		$("ul li a").click(function(){
+  			$("a").removeClass("av");
+  			$(this).addClass("av");
+  		});
+  	})
+
+  </script>
+</body>
+</html>
